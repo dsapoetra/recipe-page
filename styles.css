@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #F3E5D7;
+    padding: 30px 2.5rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 1.6;
+  }
+  
+.ingredients {
+    margin-top: 1.4rem;
+    color: #5f574e;
+    border-bottom: 1px solid #e4ded8;;
+    padding: 2rem;
+}
+
+.ingredients-title {
+    color: #854632;
+    letter-spacing: 4px;
+}
+  
+.gram {
+  color: #5f574e;
+}
+  
+.nutrition-section {
+  color: #5f574e;
+}
+
+.instructions li span {
+  color: #5f574e;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 2.2rem;
+  margin: auto;
+  max-width: 48rem;
+  border-radius: 0.7rem;
+}
+  
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 0.6rem;
+}
+  
+.title {
+  font-family: 'Young Serif', serif;
+  margin-top: 1.8rem;
+  letter-spacing: 0.2rem;
+  color: #302d2c;
+}
+  
+.heading-paragraph {
+  font-weight: bold;
+  margin-top: 1rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  color: #5f574e;
+}
+    
+.preparation {
+    font-family: 'Outfit', sans-serif;
+    background: #fff5fa;
+    padding: 2.5rem;
+    border-radius: 0.6rem;
+    color: #5f574e;
+    margin-top: 1.4rem;
+    margin: 1rem;
+  }
+  
+.prep-time {
+  color: #7b284f;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+  
+.preparation li span {
+  font-weight: bold;
+  color: #5f574e;
+}
+    
+.nutrition-section h2 {
+  letter-spacing: 4px;
+  color: #854632;
+}
+
+.instructions h2 {
+  letter-spacing: 4px;
+  color: #854632;
+}
+  
+  /* UNORDERED &ORDERED ITEM */
+  ul li,
+  ol li {
+    padding-left: 1rem;
+  }
+  
+  li::marker {
+    color: #854632;
+  }
+  
+  /* HORIZONTAL LINES */
+  .instructions {
+    border-bottom: 1px solid #e4ded8;;
+    padding: 2rem;
+    font-size: 1rem;
+    color: #5f574e;
+  }
+  
+  .instructions ol li span {
+    font-weight: bold;
+  }
+  
+  .nutrition-section {
+    margin-top: 1.6rem;
+  }
+  
+  .table {
+    width: 100%;
+    margin: 1.6rem;
+  }
+  
+  td {
+    padding: 0.6rem;
+    text-align: left;
+    border-bottom: 1px solid #e4ded8;
+  }
+  
+  th {
+    color: #854632;
+    padding: 0.6rem;
+    text-align: left;
+    border-bottom: 1px solid #e4ded8;;
+  }
+  
+  @media only screen and (max-width: 375px) {
+    body {
+      padding: 0;
+      background-color: transparent;
+    }
+    .container {
+      padding: 0;
+      max-width: 100vw;
+      border-radius: 0;
+    }
+  
+    .heading {
+      padding: 1rem;
+    }
+  
+    img {
+      border-radius: 0;
+    }
+  
+    .sub-heading {
+      font-size: 1.6rem;
+      margin-top: 1rem;
+      line-height: 1.6rem;
+    }
+  
+  
+    .nutrition-section {
+      margin: 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Footer */
+  
+  .attribution {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
